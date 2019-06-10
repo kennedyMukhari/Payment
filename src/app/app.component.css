@@ -1,0 +1,287 @@
+
+.background {
+    height: 580px;
+    background-image: linear-gradient(to right,#6f9bda, #48ccdb);
+    position: relative;
+    width: 800px;
+    margin: 10vh auto;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    
+}
+.dot {
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    border: 7.5px solid white;
+  }
+  .dot2 {
+    height: 35px;
+    width: 35px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid white;
+  }
+
+  .circle {
+      padding: 25px;
+      padding-left:660px;
+  }
+  .circle2 {
+    position: relative;
+    padding-left: 350px;
+    margin-top:-17%;
+
+}
+.circle3{
+  position: absolute;
+  margin-left: 38px;
+  bottom: 38px;
+  /* margin-top:-57px;  */
+  /* z-index: -1; */
+
+
+}
+.dot3{
+
+  height: 65px;
+  width: 65px;
+  border-radius:50%;
+  display: inline-block;
+  background-color:transparent;
+  border: 4px solid white;
+}
+
+.inner {
+      height: 400px;
+      width: 680px;
+      background-color:rgba(255, 255, 255, 0.938);
+      margin: 2.85%;
+      margin-top: 3.5%;
+      position: relative;
+      border-radius: 5px;
+      margin-left:9%;
+      overflow: hidden;
+  }
+  .sidebar{ 
+      transform: skew(-20deg,0deg);
+      padding: -100px 0;
+      position : inherit;
+      width: 45%;
+      height: 100%;
+      background: #046abc;
+      transform: scaleX(4deg);
+      bottom: 1px;
+      left: -95px;;
+      }
+
+      .card {
+        position: relative;
+        width:290px;
+        height: 170px;
+        background-image: linear-gradient(to left,#0596cb, #41dcf0);
+        margin: 100px;
+        margin-left: 40px;
+        margin-top:-310px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px black;
+
+      }
+      .img {
+
+        padding:30px;
+      }
+      .img img{
+        width: 33px;
+        height:29px;
+        margin-top: 60px;
+        border-radius:5px;
+        margin-top:20px;
+      }
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  color: white;
+}
+li{
+  width: 5px;
+  height:5px;
+  border-radius: 100%;
+  padding: 1.5px;
+
+}
+.dots {
+  width: 40px;
+  margin: 19px;
+  margin-top:10px;
+  /* background-color:pink; */
+}
+.dots2 {
+  width: 40px;
+  margin: 70px;
+  margin-top:-26px;
+  /* background-color:yellow; */
+}
+.dots3 {
+  width:40px;
+  margin: 120px; 
+  margin-top:-78px;
+  /* background-color:red; */
+}
+.dots4{
+  width:40px;
+  margin: 170px; 
+  margin-top:-128px;
+  /* background-color:violet; */
+}
+.date {
+  margin-top: -190px;
+  margin-left: 25px;
+}
+#title {
+  position: absolute;
+  /* width: 200px;
+  height: 40px; */
+  margin-left:370px;
+  z-index: 10;
+  margin-top: 105px;
+}
+#title p{
+  /* text-align: center; */
+  font-size: 31px;
+  font-weight: bold;
+}
+
+#enter {
+  position: absolute;
+  z-index: 10;
+  margin-left: 300px;
+  margin-top: 80px;
+}
+#enter #lab {
+  font-size: 11px;
+  font-weight: bold;
+}
+#enter label input{
+  width: 320px;
+  height:20px;
+  border: none;
+  border-bottom:1px solid black;
+  background-color: rgba(255, 255, 255, 0.164);
+
+}
+.visa{
+  text-align: left;
+  float: right;
+  padding: 18px;
+  padding-top: 15px;
+  margin-left: 15px;
+}
+.btn {
+position: absolute;
+z-index: 10;
+padding-left: 90px;
+margin-top:60px;
+}
+.btn button {
+  background-color: transparent;
+  border: none;
+  color: white; 
+  font-family: Helvetica;
+  font-size: 12px;
+  outline: none;
+}
+#btn {
+  position: absolute;
+  z-index: 10;
+  margin-left: 370PX;
+  margin-top:408px;
+  outline: none;
+}
+#btn button {
+  height: 55px;
+  width: 350px;
+  border-radius: 5px;
+  font-size: 22px;
+  font-weight: 799;
+  color: white;
+  background-color:#046abc;
+  border: none;
+  outline: none;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.radio {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+
+}
+
+/* Hide the browser's default checkbox */
+.radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+  border-radius: 50%;
+  border:2px solid #99c45b;
+}
+
+/* On mouse-over, add a grey background color */
+.radio:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.radio input:checked ~ .checkmark {
+  background-color: white;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.radio input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.radio .checkmark:after {
+  left: 4px;
+  top: 2px;
+  width: 4px;
+  height: 6px;
+  border: solid #99c45b;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+  transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
